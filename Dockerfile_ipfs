@@ -3,7 +3,7 @@
 # docker run -it -p 127.0.0.1:5001:5001 -p 8080:8080 -p 4001:4001 -v $HOME/dweb-mirror-pv:/pv --name dwebmirroripfs mitraardron/dweb-mirror-ipfs:latest bash
 
 #TODO try alpine
-FROM ubuntu:rolling
+FROM ubuntu:questing-20250830
 LABEL maintainer "Mitra Ardron <mitra@mitra.biz>"
 
 RUN apt-get -y update && apt-get golang git
